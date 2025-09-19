@@ -1,0 +1,29 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Index Page</title>
+</head>
+<body>
+    <h1>Welcome to My Flask App!</h1>
+    <p>This is the index page rendered using Flask templates.</p>
+
+    <a href="{{ url_for('about') }}">Go to About Page</a>
+</body>
+</html> -->
+
+
+<!-- <html>
+<head>
+    <title>Flask Graph Example</title>
+</head>
+<body>
+    <h1>Graph Embedded in HTML</h1>
+    <img src="data:image/png;base64,{{ graph_url }}" alt="Graph">
+</body>
+</html> -->
+
+{% extends "base.html" %}
+{% block content %}
+  <h1>Menu-Driven Charts</h1>
+  <p>Select a chart from the menu to view it.</p>
+{% endblock %}
